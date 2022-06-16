@@ -10,7 +10,7 @@ module.exports = {
 }
 ```
 
-* How to use
+- How to use
 To run your project, just open the `install.bat` file to install the required packages, and after installing the packages, open the` start.bat` file and enjoy your extractor 💪🏻
 
 
@@ -26,5 +26,5 @@ module.exports = {
 }
 ```
 
-* نحوه استفاده
+- نحوه استفاده
 برای ران کردن پروژه شما کافیست برای نصب پکیج های مورد نیاز فایل `install.bat` را باز کنید و پس از نصب پکیج ها فایل `start.bat` را باز کنید و از استخراج کننده خود لزت ببرید💪🏻
