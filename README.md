@@ -1,6 +1,7 @@
 # Language | EN
 Hello my dear friends 👋🏻
-In this new project, I wrote a program to extract nitro discord code, which after extracting the code, verifies it and verifies the code for you, and saves the real code for you in the `valid-codes.txt` file, and If necessary, you can save the code using [WebHookDiscord](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook), and to enable this feature in the code, just refer to the file `config.js` and enter the link, username and link of Webhook avatar.
+In this new project, I wrote a program to extract the Nitro Discord code, which verifies it after extracting the code, and after extracting it, saves the real codes for you in the `valid-codes.txt' file, and if needed, you can Save the code using Discord's Webhook(https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) and to activate this feature in the code, just add the `config. js` and enter the link, username and avatar link.
+
 ```js
 module.exports = {
     url: '',//place your created webhook URL link  here
@@ -17,7 +18,7 @@ To run your project, just open the `install.bat` file to install the required pa
 
 # Language | FA
 سلام دوستان عزیز و گرامی من👋🏻
-توی این پروژه جدید من یک برنامه برای استخراج کد نیترو دیسکورد نوشتم که پس از استخراج کد آن را راستی یابی میکند و کد را برای شما راستی یابی میکند و کد های واقعی را برای شما در فایل `valid-codes.txt` ذخیره میکند و درصورت نیاز میتوانید با استفاده از [وبهوک دیسکورد](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) کد هارا ذخیره کنید و برای فعال کردن این ویژگی در کد کافیست به فایل `config.js` مراجه کنید و لینک، یوزرنیم و لینک آواتار وبهوک را وارد کنید.
+توی این پروژه جدید من یک برنامه برای استخراج کد نیترو دیسکورد نوشتم که پس از استخراج کد آن را راستی یابی میکند و پس از استخراج آن ، کد های واقعی را برای شما در فایل `valid-codes.txt` ذخیره میکند و درصورت نیاز میتوانید با استفاده از [وبهوک دیسکورد](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) کد هارا ذخیره کنید و برای فعال کردن این ویژگی در کد کافیست به فایل `config.js` مراجه کنید و لینک، یوزرنیم و لینک آواتار وبهوک را وارد کنید.
 ```js
 module.exports = {
     url: '',//place your created webhook URL link  here
