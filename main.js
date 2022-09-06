@@ -3,11 +3,24 @@ const fs = require('fs');
 const clc = require('cli-color');
 const figlet = require('figlet');
 const webhook = require('./config');
+const { Webhook, MessageBuilder } = require('discord-webhook-node');
 var file_to_write = "valid-codes.txt";// OUT FILE WHICH EXISTING CODES WILL BE WRITTEN TO
 var threads = 100;// INITIALIZE THE MAIN FUNCTION X TIMES. MAKING IT HIGHER WILL CAUSE LONGER WAIT TIME AT THE BEGINNING BUT PROGRAM WILL BE FASTER 
 var global_counter = 0;  // DO NOT EDIT 
 var string_length = 69;
 var delay_seconds =  1;
+
+if(webhook.send === true){
+    try {  
+       const hook = new Webhook(webhook.url);
+          hook.setUsername(webhook.username);
+          hook.setAvatar(webhook.avatar);
+          hook.send("```js\nstarting Discord Nitro Generator\n```");
+       } catch (error){
+           console.log(clc.redBright('[E] |  Something went wrong...\n\n'))
+           console.error(error)
+       }
+}
 try {
     console.log("\n")
     console.log(clc.blueBright(`     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓`))
@@ -21,8 +34,8 @@ try {
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`                 /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `                 /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                 https://github.com/Sobhan-SRZA/`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `                 https://github.com/Sobhan-SRZA/`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/sizar-team`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/sizar-team`.length) + clc.blueBright("┃"))
@@ -41,6 +54,7 @@ try {
     );
     console.clear(); 
 } catch { /* */ }
+
 const append_data_to_file = (data, file) => {
     // READ FILE AND THEN WRITE TO END OF LAST DATA 
     existingData = fs.readFile(file, (err, data) => {if (err) return; return data;});
@@ -66,15 +80,22 @@ async function main() {
             // WHEN "data" DOESN'T THROWS AN ERROR
             if(webhook.send === true){
              try {  
-                const request = new XMLHttpRequest();
-                   request.open('POST', webhook.url);
-                   request.setRequestHeader('Content-type', 'application/json');
-                const params = {
-                     username: webhook.username,
-                     avatar_url: webhook.avatar,
-                     content: "**Hello Everyone @everyone\nWe Got Valid Nitro Code:\n" + `Code "\`https://discord.gift/${code}\`" is valid and will be written to file "||\`${file_to_write}\`||**"`
-                };
-                   request.send(JSON.stringify(params));
+                const hook = new Webhook(webhook.url);
+                   hook.setUsername(webhook.username);
+                   hook.setAvatar(webhook.avatar);
+                   hook.send("**Hello Everyone @everyone\nWe Got Valid Nitro Code:\n" + `Code "\`https://discord.gift/${code}\`" is valid and will be written to file "||\`${file_to_write}\`||**"`);
+                   /**
+                    //send message with embed in discord by webhook 
+                        const embed = new MessageBuilder()
+                            .setTitle('My title here')
+                            .setAuthor('Author here', 'https://cdn.discordapp.com/embed/avatars/0.png', 'https://www.google.com')
+                            .addField('First field', 'this is inline', true)
+                            .setColor('#00b0f4')
+                            .setThumbnail('https://cdn.discordapp.com/embed/avatars/0.png')
+                            .setDescription('Oh look a description :)')
+                            .setFooter('Hey its a footer', 'https://cdn.discordapp.com/embed/avatars/0.png')
+                        hook.send(embed)
+                    */
                 } catch (error){
                     console.log(clc.redBright('[E] |  Something went wrong...\n\n'))
                     console.error(error)
@@ -116,8 +137,8 @@ figlet(`
         console.log("\n")
         console.log(clc.blueBright(`     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓`))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-        console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                https://github.com/Sobhan-SRZA/`) + 
-        " ".repeat(-1 + string_length - ` ┃ `.length - `                https://github.com/Sobhan-SRZA/`.length) + clc.blueBright("┃"))
+        console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`) + 
+        " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/sizar-team`) + 
         " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/sizar-team`.length) + clc.blueBright("┃"))
@@ -132,7 +153,7 @@ figlet(`
         console.log('\n')
         console.log(`${clc.magentaBright(data)}`)
         while(
-            new Date(new Date().getTime() + delay_seconds * 7) > new Date()
+            new Date(new Date().getTime() + delay_seconds * 4) > new Date()
         );
         console.clear(); 
     }
