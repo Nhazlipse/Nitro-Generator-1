@@ -28,8 +28,8 @@ try {
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`         /-/ Welcome to Nitro Generator And Checker /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `         /-/ Welcome to Nitro Generator And Checker /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("SIZAR Team")} /-/`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And SIZAR Team /-/`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Czar")} /-/`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Czar /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`                 /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `                 /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
@@ -153,7 +153,7 @@ figlet(`
         console.log('\n')
         console.log(`${clc.magentaBright(data)}`)
         while(
-            new Date(new Date().getTime() + delay_seconds * 4) > new Date()
+            new Date(new Date().getTime() + delay_seconds * 3) > new Date()
         );
         console.clear(); 
     }
@@ -168,8 +168,8 @@ for (var i = 0; i < threads; i++) {  // INITIALIZE ASYNC LOOP AS MUCH AS "thread
  * @INFO
  * Coded by Mr.SIN RE#1528 :) | https://dsc.gg/sizar-team
  * @INFO
- * Work for SIZAR Team | https://dsc.gg/sizar-team
+ * Work for Persian Czar | https://dsc.gg/sizar-team
  * @INFO
- * Please Mention Us SIZAR Team, When Using This Code!
+ * Please Mention Us Persian Czar, When Using This Code!
  * @INFO
  */
