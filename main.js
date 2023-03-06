@@ -10,7 +10,7 @@ var global_counter = 0;  // DO NOT EDIT
 var string_length = 69;
 var delay_seconds =  1;
 
-if(webhook.send === true){
+if(webhook.send){
     try {  
        const hook = new Webhook(webhook.url);
           hook.setUsername(webhook.username);
@@ -80,7 +80,7 @@ async function main() {
         try {
             var data = await axios.get(`https://discordapp.com/api/v6/entitlements/gift-codes/${code}?with_application=false&with_subscription_plan=true`);  // SEND GET REQUEST AND CHECK RESULT CODE 
             // WHEN "data" DOESN'T THROWS AN ERROR
-            if(webhook.send === true){
+            if(webhook.send){
              try {  
                 const hook = new Webhook(webhook.url);
                    hook.setUsername(webhook.username);
@@ -167,11 +167,11 @@ for (var i = 0; i < threads; i++) {  // INITIALIZE ASYNC LOOP AS MUCH AS "thread
     main();
 };
 /**
- * @INFO
- * Coded by Mr.SIN RE#1528 :) | https://dsc.gg/sizar-team
- * @INFO
- * Work for Persian Czar | https://dsc.gg/sizar-team
- * @INFO
- * Please Mention Us Persian Czar, When Using This Code!
- * @INFO
+ * @Info
+ * Bot Coded by Mr.SIN RE#1528 :) | https://dsc.gg/persian-caesar
+ * @Info
+ * Work for Persian Caesar | https://dsc.gg/persian-caesar
+ * @Info
+ * Please Mention Us "Persian Caesar", When Have Problem With Using This Code!
+ * @Info
  */
