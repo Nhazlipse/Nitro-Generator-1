@@ -61,10 +61,12 @@ const append_data_to_file = (data, file) => {
     fs.writeFile(file, existingData + "\n" + data, err => err);
 };
 const generateRandomNitro = () => {  // GENERATE RANDOM NITRO KEY(16 LETTERS) 
+    var lengths = [ 8, 16, 24 ]
+    var length = lengths[Math.floor(Math.random() * lengths.length)];
     var nitroKey = "";
     var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    for (var i = 0; i < 16; i++) {
-        nitroKey +=  chars.charAt(randomIntBetween(0, chars.length));
+    for (var i = 0; i < length; i++) {
+        nitroKey += chars.charAt(randomIntBetween(0, chars.length));
     };
     return nitroKey;
 };
