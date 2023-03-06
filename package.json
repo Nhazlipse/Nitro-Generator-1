@@ -12,6 +12,7 @@
     "server": "https://dsc.gg/persian-caesar",
     "url": "https://github.com/Sobhan-SRZA/Discord-Nitro-Generator/issues"
   },
+  "homepage": "https://github.com/Sobhan-SRZA/Discord-Nitro-Generator#readme",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
