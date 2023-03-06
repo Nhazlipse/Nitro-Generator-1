@@ -28,8 +28,8 @@ try {
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`         /-/ Welcome to Nitro Generator And Checker /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `         /-/ Welcome to Nitro Generator And Checker /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Czar")} /-/`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Czar /-/`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Caesar")} /-/`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Caesar /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`                 /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `                 /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
@@ -37,8 +37,8 @@ try {
     console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/sizar-team`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/sizar-team`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/persian-caesar`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/persian-caesar`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`))
     console.log("\n")
@@ -142,11 +142,11 @@ figlet(`
         console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`) + 
         " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-        console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/sizar-team`) + 
-        " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/sizar-team`.length) + clc.blueBright("┃"))
+        console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/persian-caesar`) + 
+        " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/persian-caesar `.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-        console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("SIZAR Team")} /-/`) + 
-        " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And SIZAR Team /-/`.length) + clc.blueBright("┃"))
+        console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Caesar")} /-/`) + 
+        " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Caesar /-/`.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`                 /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
         " ".repeat(-1 + string_length - ` ┃ `.length - `                 /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
