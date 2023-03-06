@@ -34,7 +34,7 @@ that was so easy, after you click that buttons👇🏻 you will create some proj
 </details>
 
 
-# Language | FA
+# Language | PER 🇮🇷
 سلام دوستان عزیز و گرامی من👋🏻
 توی این پروژه جدید من یک برنامه برای استخراج کد نیترو دیسکورد نوشتم که پس از استخراج کد آن را راستی یابی میکند و پس از استخراج آن ، کد های واقعی را برای شما در فایل `valid-codes.txt` ذخیره میکند و درصورت نیاز میتوانید با استفاده از [وبهوک دیسکورد](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) کد هارا ذخیره کنید و برای فعال کردن این ویژگی در کد کافیست به فایل `config.js` مراجه کنید و لینک، یوزرنیم و لینک آواتار وبهوک را وارد کنید.
 ```js
