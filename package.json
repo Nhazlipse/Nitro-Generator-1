@@ -1,20 +1,29 @@
 {
   "name": "nitro_generator_and_checker",
   "version": "2.1.0",
+  "author": "Mr.SIN RE#1528 | Persian Caesar",
   "description": "this is nitro generator and checker working with JavaScript",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/Sobhan-SRZA/Discord-Nitro-Generator.git"
+  },
+  "bugs": {
+    "server": "https://dsc.gg/persian-caesar",
+    "url": "https://github.com/Sobhan-SRZA/Discord-Nitro-Generator/issues"
+  },
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "persian caesar",
     "nitro",
     "discord nitro",
     "nitro generator",
     "nitro generator checker"
   ],
-  "author": "Mr.SIN RE#1528 | SIZAR Team",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "cli-color": "^2.0.3",
