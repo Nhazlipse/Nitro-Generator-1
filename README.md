@@ -1,4 +1,4 @@
-# Language | EN
+# Language | EN 🇬🇧
 Hello my dear friends 👋🏻
 In this new project, I wrote a program to extract the Nitro Discord code, which verifies it after extracting the code, and after extracting it, saves the real codes for you in the `valid-codes.txt` file, and if needed, you can Save the code using [Discord's Webhook](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) and to activate this feature in the code, just add the `config. js` and enter the link, username and avatar link.
 
@@ -14,6 +14,24 @@ module.exports = {
 ### How to use
 To run your project, just open the `install.bat` file to install the required packages, and after installing the packages, open the `start.bat` file and enjoy your generator 💪🏻
 
+<details><summary> How run project in replit or heroco? </summary>
+
+that was so easy, after you click that buttons👇🏻 you will create some project like this source with importing this source🎓 and after that with installing source packages, run your Nitro Generator.
+<p align="center">
+
+  <a href="https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Deploy on Herokucd" src ="https://www.herokucdn.com/deploy/button.svg" >
+  </a>
+
+  <a href="https://glitch.com/edit/#!/import/github/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Remix on Glitch" src ="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" >
+  </a>
+
+  <a href="https://repl.it/github/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Use on Replit" src ="https://repl.it/badge/github/Sobhan-SRZA/Discord-Nitro-Generator" >
+  </a>
+</p>
+</details>
 
 
 # Language | FA
@@ -30,6 +48,26 @@ module.exports = {
 
 ### نحوه استفاده
 برای ران کردن پروژه شما کافیست برای نصب پکیج های مورد نیاز فایل `install.bat` را باز کنید و پس از نصب پکیج ها فایل `start.bat` را باز کنید و از استخراج کننده خود لذت ببرید💪🏻
+
+<details><summary> چگونه پروژه را در replit یا heroco اجرا کنیم؟ </summary>
+
+خیلی راحت است، بعد از اینکه روی اون دکمه ها کلیک کردید، با وارد کردن این سورس پروژه ای مثل این سورس ایجاد می کنید و بعد از نصب بسته های سورس، Nitro Generator خود را اجرا کنید.
+
+<p align="center">
+
+  <a href="https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Deploy on Herokucd" src ="https://www.herokucdn.com/deploy/button.svg" >
+  </a>
+
+  <a href="https://glitch.com/edit/#!/import/github/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Remix on Glitch" src ="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" >
+  </a>
+
+  <a href="https://repl.it/github/Sobhan-SRZA/Discord-Nitro-Generator">
+    <img align="center" alt="Use on Replit" src ="https://repl.it/badge/github/Sobhan-SRZA/Discord-Nitro-Generator" >
+  </a>
+</p>
+</details>
 
 ---
 
