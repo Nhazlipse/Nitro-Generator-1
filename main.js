@@ -28,17 +28,17 @@ try {
     console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`         /-/ Welcome to Nitro Generator And Checker /-/`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `         /-/ Welcome to Nitro Generator And Checker /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Caesar")} /-/`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Caesar /-/`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`          /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Caesar")} /-/`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `          /-/ Coded By Mr.SIN RE And Persian Caesar /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`                 /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `                 /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`               /-/ Discord: ${clc.yellow("Mr.SIN RE#1528")}  /-/`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `               /-/ Discord: Mr.SIN RE#1528  /-/`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`) + 
     " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
-    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/persian-caesar`) + 
-    " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/persian-caesar`.length) + clc.blueBright("┃"))
+    console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                 https://dsc.gg/persian-caesar`) + 
+    " ".repeat(-1 + string_length - ` ┃ `.length - `                 https://dsc.gg/persian-caesar`.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
     console.log(clc.blueBright(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`))
     console.log("\n")
@@ -50,7 +50,7 @@ try {
     console.log(clc.blueBright(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`))
     console.log("\n")
     while(
-        new Date(new Date().getTime() + delay_seconds * 3) > new Date()
+        new Date(new Date().getTime() + delay_seconds) > new Date()
     );
     console.clear(); 
 } catch { /* */ }
@@ -78,7 +78,7 @@ async function main() {
         var code = generateRandomNitro();
         const p = (text) => console.log(clc.blackBright(`[${global_counter}]`)+text);  // PRINT THE TEXT AND ADD THE COUNTER AT THE BEGIN
         try {
-            var data = await axios.get(`https://discordapp.com/api/v6/entitlements/gift-codes/${code}?with_application=false&with_subscription_plan=true`);  // SEND GET REQUEST AND CHECK RESULT CODE 
+            var data = await axios.get(`https://discordapp.com/api/v9/entitlements/gift-codes/${code}?with_application=false&with_subscription_plan=true`);  // SEND GET REQUEST AND CHECK RESULT CODE 
             // WHEN "data" DOESN'T THROWS AN ERROR
             if(webhook.send){
              try {  
@@ -143,7 +143,7 @@ figlet(`
         " ".repeat(-1 + string_length - ` ┃ `.length - `     https://github.com/Sobhan-SRZA/Discord-Nitro-Generator`.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + clc.cyanBright(`                   https://dsc.gg/persian-caesar`) + 
-        " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/persian-caesar `.length) + clc.blueBright("┃"))
+        " ".repeat(-1 + string_length - ` ┃ `.length - `                   https://dsc.gg/persian-caesar`.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + " ".repeat(-1 + string_length - ` ┃ `.length) + clc.blueBright("┃"))
         console.log(clc.blueBright(`     ┃ `) + clc.yellowBright(`             /-/ Coded By ${clc.yellow("Mr.SIN RE")} And ${clc.yellow("Persian Caesar")} /-/`) + 
         " ".repeat(-1 + string_length - ` ┃ `.length - `             /-/ Coded By Mr.SIN RE And Persian Caesar /-/`.length) + clc.blueBright("┃"))
@@ -155,7 +155,7 @@ figlet(`
         console.log('\n')
         console.log(`${clc.magentaBright(data)}`)
         while(
-            new Date(new Date().getTime() + delay_seconds * 3) > new Date()
+            new Date(new Date().getTime() + delay_seconds) > new Date()
         );
         console.clear(); 
     }
