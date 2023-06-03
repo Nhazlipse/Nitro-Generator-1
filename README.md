@@ -1,3 +1,23 @@
+## 🧬 Discord Nitro Generator
+<div align="center">
+    <img src="https://badges.aleen42.com/src/node.svg">
+    <img src="https://img.shields.io/github/v/release/Sobhan-SRZA/Nitro-Generator?label=Version">
+    <div>
+        <img src="https://img.shields.io/github/license/Sobhan-SRZA/Nitro-Generator?label=License">
+        <img src="https://img.shields.io/github/last-commit/Sobhan-SRZA/Nitro-Generator?label=Last Commit">
+        <img src="https://img.shields.io/github/release-date/Sobhan-SRZA/Nitro-Generator?label=Last Release">
+        <img src="https://img.shields.io/github/downloads/Sobhan-SRZA/Nitro-Generator/total?label=Downloads">
+    </div>
+    <img src="https://img.shields.io/github/forks/Sobhan-SRZA/Nitro-Generator?label=Forks">
+    <img src="https://img.shields.io/github/stars/Sobhan-SRZA/Nitro-Generator?label=Stars">
+    <img src="https://img.shields.io/github/watchers/Sobhan-SRZA/Nitro-Generator?label=Watchers">
+    <img src="https://img.shields.io/github/languages/code-size/Sobhan-SRZA/Nitro-Generator?label=Code Size">
+    <img src="https://img.shields.io/github/directory-file-count/Sobhan-SRZA/Nitro-Generator?label=Files">
+    <div>
+        <img style="display:block;margin-left:auto;margin-right:auto;width:30%;" src="https://github-readme-stats.vercel.app/api/pin/?username=Sobhan-SRZA&repo=Nitro-Generator&theme=react">
+    </div>
+</div>
+
 # Language | EN 🇬🇧
 Hello my dear friends 👋🏻
 In this new project, I wrote a program to extract the Nitro Discord code, which verifies it after extracting the code, and after extracting it, saves the real codes for you in the `valid-codes.txt` file, and if needed, you can Save the code using [Discord's Webhook](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) and to activate this feature in the code, just add the `config. js` and enter the link, username and avatar link.
