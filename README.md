@@ -18,6 +18,8 @@
     </div>
 </div>
 
+---
+
 # Language | EN 🇬🇧
 Hello my dear friends 👋🏻
 In this new project, I wrote a program to extract the Nitro Discord code, which verifies it after extracting the code, and after extracting it, saves the real codes for you in the `valid-codes.txt` file, and if needed, you can Save the code using [Discord's Webhook](https://discordjs.guide/popular-topics/webhooks.html#what-is-a-webhook) and to activate this feature in the code, just add the `config. js` and enter the link, username and avatar link.
